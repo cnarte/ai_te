@@ -13,12 +13,12 @@ def printJobScheduling(arr, t):
 if __name__ == '__main__':
     N = int(input("enter number of jobs : "))
     arr = []
-    default = raw_input("use all default?[y/n] ")
+    default = input("use all default?[y/n] ")
     if default in ["Y","y"]:
         arr = [["a",3,89],["b",1,32],["c",3,76],["d",6,54],["e",2,4]]
     else:
         for i in range(N):
-            name,deadline,profit  = raw_input().split()
+            name,deadline,profit  = input().split()
             deadline,profit = int(deadline),int(profit)
 
    
