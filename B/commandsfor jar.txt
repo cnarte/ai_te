@@ -1,0 +1,20 @@
+hadoop jar  /home/anuranjan/Desktop/DSBDA/WordCount.jar com.mapreduce.wc/WordCount /home/anuranjan/Desktop/DSBDA/word.txt /home/anuranjan/Desktop/DSBDA/output
+hadoop jar /home/anuranjan/Desktop/DSBDA/Weather.jar com.mapreduce.wc/Weather /home/anuranjan/Desktop/DSBDA/sample_weather.txt /home/anuranjan/Desktop/DSBDA/output1
+hadoop jar /home/anuranjan/Desktop/DSBDA/logfile.jar com.mapreduce.wc/SalesCountryDriver /home/anuranjan/Desktop/DSBDA/SalesJan2009.csv /home/anuranjan/Desktop/DSBDA/output2
+
+
+
+
+
+
+hadoop jar {location of jarfile } {name of main class} {inputfilelocation} {outfile}
+
+
+//.jar hata do in class name
+class name = com.mapreduce.wc/Weather.jar
+class name  = com.mapreduce.wc/SalesCountryDriver.jar
+class name = com.mapreduce.wc/WordCount.jar
+
+
+output command = hadoop fs -cat {output}/*
+
