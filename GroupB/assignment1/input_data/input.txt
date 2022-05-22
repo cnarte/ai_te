@@ -1,0 +1,29 @@
+What is Big Data
+Data which are very large in size is called Big Data. Normally we work on data of size MB(WordDoc ,Excel) or maximum GB(Movies, Codes) but data in Peta bytes i.e. 10^15 byte size is called Big Data. It is stated that almost 90% of today's data has been generated in the past 3 years.
+
+Sources of Big Data
+These data come from many sources like
+
+Social networking sites: Facebook, Google, LinkedIn all these sites generates huge amount of data on a day to day basis as they have billions of users worldwide.
+E-commerce site: Sites like Amazon, Flipkart, Alibaba generates huge amount of logs from which users buying trends can be traced.
+Weather Station: All the weather station and satellite gives very huge data which are stored and manipulated to forecast weather.
+Telecom company: Telecom giants like Airtel, Vodafone study the user trends and accordingly publish their plans and for this they store the data of its million users.
+Share Market: Stock exchange across the world generates huge amount of data through its daily transaction.
+3V's of Big Data
+Velocity: The data is increasing at a very fast rate. It is estimated that the volume of data will double in every 2 years.
+Variety: Now a days data are not stored in rows and column. Data is structured as well as unstructured. Log file, CCTV footage is unstructured data. Data which can be saved in tables are structured data like the transaction data of the bank.
+Volume: The amount of data which we deal with is of very large size of Peta bytes.
+Use case
+An e-commerce site XYZ (having 100 million users) wants to offer a gift voucher of 100$ to its top 10 customers who have spent the most in the previous year.Moreover, they want to find the buying trend of these customers so that company can suggest more items related to them.
+
+Issues
+Huge amount of unstructured data which needs to be stored, processed and analyzed.
+
+Solution
+Storage: This huge amount of data, Hadoop uses HDFS (Hadoop Distributed File System) which uses commodity hardware to form clusters and store data in a distributed fashion. It works on Write once, read many times principle.
+
+Processing: Map Reduce paradigm is applied to data distributed over network to find the required output.
+
+Analyze: Pig, Hive can be used to analyze the data.
+
+Cost: Hadoop is open source so the cost is no more an issue.
